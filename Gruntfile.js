@@ -56,7 +56,7 @@ module.exports = function(grunt) {
                     patterns:[
                         {
                             match: 'CSS_ADDRES',
-                            replacement: '/dist/styles/main.min.css' 
+                            replacement: './styles/main.min.css' 
                         },
                         {
                             match: 'JS_ADDRES',
